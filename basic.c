@@ -13,5 +13,5 @@ int main()
     scanf("%f",&R);
     Amount=P*pow((1+R/100),T);
     CI= Amount - P;
-    printf("THE COMPOUND INTEREST IS=%1.2f",CI);
+    printf("THE COMPOUND INTEREST IS=%.2f",CI);
     }
